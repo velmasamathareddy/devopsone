@@ -16,6 +16,10 @@ pipeline {
             steps {
                 echo 'Deploying....'
             }
+        stage('Verification') {
+            steps {
+                echo 'Verification in progress....'
+            }
         }
     }
 }
