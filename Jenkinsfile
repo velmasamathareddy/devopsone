@@ -19,7 +19,7 @@ pipeline {
 		}
         stage('Verification') {
             steps {
-                echo 'Verification in progress....'
+                echo 'Verification in  progress....'
             }
         }
 		stage('sending updtaes') {
